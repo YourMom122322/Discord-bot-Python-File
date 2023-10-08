@@ -5,5 +5,5 @@ Then select python.
 At End put the file and run it.
 
 # Comming soon
-Keepalive script will comming soon.
+Keepalive script will comming soon and
 More commnads.
