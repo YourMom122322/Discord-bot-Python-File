@@ -15,11 +15,11 @@ async def on_message(message):
     if message.author.bot:
         return  # Ignore messages from bots
 
-    if message.content.lower() == '1zombie_chaos':
-        await message.channel.send('This server got attacked by Zombies')
+    if message.content.lower() == 'zombie':
+        await message.channel.send('zombie')
         while True:
             response = await bot.wait_for('message', check=lambda m: m.author == message.author)
-            if response.content.lower() == '!stop chaos':
+            if response.content.lower() == 'stop':
                 break
             else:
                 await message.channel.send('zombie')
