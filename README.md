@@ -1,9 +1,5 @@
-# STEPS
-
-Download Bot.py File and then go in replit/visual studio code.
-Then select python.
-At End put the file and run it.
+# Steps
+Go to replit and run.
 
 # Comming soon
-Keepalive script will comming soon and
-more commnads.
+More commands
